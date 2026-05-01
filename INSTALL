@@ -9,9 +9,12 @@ date
 Perl Modules
 ------------
 LWP::UserAgent (usually packaged as libwww-perl or perl-libwww, depending on distribution)
-forks
+forks (optional)
 Thread::Queue
 Sys::CPU (optional)
+
+For fetching Archlinux/AUR information you also need:
+LWP::Protocol::https (usually packaged as perl-lwp-protocol-https, depending on distribution)
 
 
 To install
